@@ -15,7 +15,7 @@ This project aims to create an end-to-end data engineering framework for migrati
 
 - Link to all AW backups: https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
 
-### Step 2 - Data Ingestion using Azure Data:
+### Step 2 - Data Ingestion using Azure Data Factory:
 -	Since this is an on-prem server, the ingestion pipeline required the creation of a self-hosted integration runtime (SHIR) to run it. 
 -	The pipeline was created using Lookup, ForEach and Copy Data activities from ADF to move multiple Sales tables from the AdventureWorks2022 database to Azure Data Lake in parquet format.
 
